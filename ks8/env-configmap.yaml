@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configuration-values
+data:
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: project3udagram.c4yfkyqlfjl6.us-east-1.rds.amazonaws.com
+
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  AWS_BUCKET: project-3-s3
+
+  URL: http://a30c9b97076c04840a047254c826a7ff-940366514.us-east-1.elb.amazonaws.com:8100
